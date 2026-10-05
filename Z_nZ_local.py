@@ -41,7 +41,7 @@ def cal_equiv(n, x):
         zero = get_zero_div(n, mult)
         mult_num = len(mult)
         
-        ans = [[[0, mult[i]] for i in range(0, mult_num)]]  # 先添加所有分母为0的，他们一定属于同一个等价类
+        ans = [[[0, mult[i]] for i in range(0, mult_num)]]  # 先添加所有分子为0的，他们一定属于同一个等价类
         equiv_num = len(ans)    # ans的大小，或者说等价类的个数，后面会动态更新
 
         # i是分子，j是分母
