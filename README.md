@@ -1,1 +1,1 @@
-# Localization of \(\mathbb{Z}/n\mathbb{Z}\) at \(x\)
+# Localization of $\mathbb{Z}/n\mathbb{Z}$ at $x$
